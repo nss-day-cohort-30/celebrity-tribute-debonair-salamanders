@@ -27,6 +27,54 @@ body {
 
 
 
+.mouseClubSection {
+    /* border: 1px red solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.mouseClubSection ul {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.nsyncSection {
+    /* border: 1px red solid; */
+}
+
+.mouseClubPhoto {
+    height: 400px;
+}
+
+.albumImages,
+.movieImages {
+    display: flex;
+    justify-content: space-around;
+}
 
 
+.nsyncSection ul li {
+    list-style: none;
+}
 
+.albumCover {
+    height: 200px;
+    border: 5px black solid;
+    
+}
+
+.moviePoster {
+    height: 300px;
+    border: 5px black solid;
+}
+
+.movieList {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.movieList li {
+    list-style: none;
+    width: 30%;
+}
