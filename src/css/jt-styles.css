@@ -1,0 +1,14 @@
+.navIcons{
+    
+    margin: 0px 100px;
+    
+    width:64px;
+    height:64px;
+}
+
+.mainFooter {
+    border: 1px solid black;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
