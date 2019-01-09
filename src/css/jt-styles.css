@@ -1,5 +1,22 @@
 body {
     padding: 0% 10%;
+    background-color: antiquewhite;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1,
+h3, {
+    font-family: 'Anton', sans-serif;
+}
+
+p,
+li {
+    font-family: 'Thasadith', sans-serif; 
 }
 
 ul {
@@ -30,26 +47,6 @@ ul {
 
 
 
-body {
-    background-color: antiquewhite;
-}
-
-h1 {
-
-}
-
-
-
-
-
-nav {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-
-}
-
 .collaborators {
     padding: 20px;
 }
@@ -57,7 +54,10 @@ nav {
 .navBarList li {
     list-style: none;
     float: left;
+}
 
+.navBarList > li {
+    font-family: 'Anton', sans-serif;
 }
 
 .navBarList a {
@@ -72,12 +72,10 @@ nav {
 
   }
 
-  .navBarList a:hover {
-
-        background-color: #555;
-        color: white;
-  
-  }
+.navBarList a:hover {
+    background-color: #555;
+    color: white;
+}
 
 /****** Career Page Styles ******/
 /********************************/
@@ -129,5 +127,14 @@ nav {
     width: 33%;
 }
 
+
 /********************************/
+
+
+/* Personal page styling */
+
+.personal_img {
+    height: 400px;
+    width: 450px;
+}
 
