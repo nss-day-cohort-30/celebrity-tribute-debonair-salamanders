@@ -41,19 +41,17 @@ ul {
 .jtMainContent__section{
     margin: 50px 0px;
 }
+.footerSocialIcons {
+    display: flex;
+}
 
 .navIcons {
     height: 50px;
-    margin: 0px 100px;
+    margin: 0px 10px;
     width:64px;
     height:64px;
 }
-.navIconsForMainPage {
-    height: 50px;
-    margin: 0px 20px;
-    width:64px;
-    height:64px;
-}
+
 
 .logoIcon {
     padding: 0px 50px 0px 10px; 
@@ -85,17 +83,28 @@ body {
  }
 
 .mainFooter {
-   
+  
     padding: 20px 0px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    
     flex-shrink: 0;
 }
-.mainPageFooter{
-    
-    display: flex;
-    justify-content: flex-end;
+
+.mainPageFooter {
+    margin-top: 20px;
+    border-top: 1px solid black;
 }
+
+.container{
+    border-bottom: 1px solid black;
+}
+
+
+.lowerText {
+    position:relative;  top: 20px;
+}
+
 
 nav {
     width: 100%;
@@ -176,7 +185,7 @@ nav {
 .movieList {
     display: flex;
     flex-wrap: wrap;
-    height: 200px;
+    height: 200px;.mainFooterPage ƒ
 }
 
 .movieList li {
