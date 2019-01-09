@@ -146,6 +146,15 @@ nav {
 /****** Career Page Styles ******/
 /********************************/
 
+.intro {
+    text-align: center;
+}
+
+.careerIntro {
+    display: flex;
+    justify-content: space-around;
+}
+
 .mouseClubSection {
     display: flex;
     justify-content: space-around;
