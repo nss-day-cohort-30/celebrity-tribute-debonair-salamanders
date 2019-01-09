@@ -12,23 +12,61 @@ body {
 }
 
 .navIcons {
+    height: 50px;
     margin: 0px 100px;
     width:64px;
     height:64px;
 }
+.navIconsForMainPage {
+    height: 50px;
+    margin: 0px 20px;
+    width:64px;
+    height:64px;
+}
 
-.mainFooter {
-    border: 1px solid black;
-    padding: 20px 0px;
+.logoIcon {
+    padding: 0px 50px 0px 10px; 
+    width:64px;
+    height:64px;
+}
+
+.jtMainContent__businessBlock{
     display: flex;
     justify-content: center;
 }
+.jtGif {
+    background-image: url('source.gif');
+    background-size: cover;
+}
 
-
+html, body {
+    height: 100%;
+}
 
 body {
     background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
 }
+
+.content {
+    flex: 1 0 auto;
+ }
+
+.mainFooter {
+   
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.mainPageFooter{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 
 h1 {
 
