@@ -1,8 +1,17 @@
 body {
-    padding: 25px 50px;
-    }
+    padding: 0% 10%;
+}
 
-.navIcons{
+.pageTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.jtMainContent__section{
+    margin: 50px 0px;
+}
+
+.navIcons {
     margin: 0px 100px;
     width:64px;
     height:64px;
@@ -16,7 +25,8 @@ body {
 }
 
 
-section{
-    margin: 50px 50px;
-}
+
+
+
+
 
