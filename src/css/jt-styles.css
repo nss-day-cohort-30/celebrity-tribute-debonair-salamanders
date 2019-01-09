@@ -92,6 +92,9 @@ body {
     line-height: 1.6;
 }
 
+.lowerText {
+    position:relative;  top: 20px;
+}
 
 h1 {
 
