@@ -27,6 +27,12 @@ ul {
     list-style: none;
 }
 
+.report {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+}
+
 .pageTitle {
     display: flex;
     justify-content: center;
@@ -99,9 +105,9 @@ nav {
 
 }
 
-.collaborators {
+/* .collaborators {
     padding: 20px;
-}
+} */
 
 .navBarList li {
     list-style: none;
@@ -189,3 +195,6 @@ nav {
     border: 5px solid black;
 }
 
+#bottomSpace {
+    height: 600px;
+}
