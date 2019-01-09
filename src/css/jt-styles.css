@@ -12,3 +12,24 @@
     display: flex;
     justify-content: center;
 }
+
+
+
+.albumCover {
+    height: 200px;
+}
+
+.moviePoster {
+    height: 300px;
+}
+
+.movieList {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.movieList li {
+    list-style: none;
+    width: 30%;
+}
