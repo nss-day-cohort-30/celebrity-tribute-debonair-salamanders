@@ -2,6 +2,7 @@ body {
     padding: 0% 10%;
     background-color: antiquewhite;
 }
+   
 
 nav {
     width: 100%;
@@ -29,7 +30,7 @@ ul {
 }
 
 .jtMainContent__section{
-    margin: 50px 0px;
+    margin: 30px 0px;
 }
 
 .navIcons {
@@ -46,7 +47,7 @@ ul {
 }
 
 .logoIcon {
-    padding: 0px 50px 0px 10px; 
+    padding: 10px 15px 0px 10px; 
     width:64px;
     height:64px;
 }
@@ -84,9 +85,12 @@ body {
 .mainPageFooter{
     
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
+.jtMainContent__extrasLink{
+    line-height: 1.6;
+}
 
 
 h1 {
@@ -200,5 +204,13 @@ nav {
 .personal_img {
     height: 400px;
     width: 450px;
+}
+
+#baiLogo {
+    position:relative;  top:10px;
+}
+
+#mainPhotoDiv { 
+    position:relative;  left:505px;
 }
 
