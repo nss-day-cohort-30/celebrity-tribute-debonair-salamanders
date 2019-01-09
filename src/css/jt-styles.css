@@ -97,6 +97,12 @@ body {
     justify-content: flex-end;
 }
 
+
+.lowerText {
+    position:relative;  top: 20px;
+}
+
+
 nav {
     width: 100%;
     display: flex;
