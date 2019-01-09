@@ -2,7 +2,6 @@ body {
     padding: 0% 10%;
     background-color: antiquewhite;
 }
-   
 
 nav {
     width: 100%;
@@ -11,17 +10,27 @@ nav {
 }
 
 h1,
-h3, {
+h2,
+h3 {
     font-family: 'Anton', sans-serif;
 }
 
 p,
-li {
+li,
+h4,
+h5,
+h6 {
     font-family: 'Thasadith', sans-serif; 
 }
 
 ul {
     list-style: none;
+}
+
+.report {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
 }
 
 .pageTitle {
@@ -30,7 +39,7 @@ ul {
 }
 
 .jtMainContent__section{
-    margin: 30px 0px;
+    margin: 50px 0px;
 }
 
 .navIcons {
@@ -47,7 +56,7 @@ ul {
 }
 
 .logoIcon {
-    padding: 10px 15px 0px 10px; 
+    padding: 0px 50px 0px 10px; 
     width:64px;
     height:64px;
 }
@@ -85,29 +94,13 @@ body {
 .mainPageFooter{
     
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
-.jtMainContent__extrasLink{
-    line-height: 1.6;
-}
 
 .lowerText {
     position:relative;  top: 20px;
 }
-
-h1 {
-
-}
-
-
-
-.mouseClubSection {
-    /* border: 1px red solid; */
-    display: flex;
-    justify-content: center;
-}
-
 
 
 nav {
@@ -118,9 +111,9 @@ nav {
 
 }
 
-.collaborators {
+/* .collaborators {
     padding: 20px;
-}
+} */
 
 .navBarList li {
     list-style: none;
@@ -137,11 +130,10 @@ nav {
     padding: 8px 16px;
     text-decoration: none;
     display: flex;
-    flex-direction: row-reverse; 
-    justify-content:center; 
+    /* flex-direction: row-reverse;  */
+    justify-content:space-evenly; 
     width: 118px;
-
-  }
+}
 
 .navBarList a:hover {
     background-color: #555;
@@ -169,7 +161,6 @@ nav {
 
 .nsyncLists {
     display: flex;
-    border: red 1px solid;
 }
 
 .albumImages,
@@ -205,15 +196,11 @@ nav {
 /* Personal page styling */
 
 .personal_img {
-    height: 400px;
-    width: 450px;
+    height: 325px;
+    width: 400px;
+    border: 5px solid black;
 }
 
-#baiLogo {
-    position:relative;  top:10px;
+#bottomSpace {
+    height: 600px;
 }
-
-#mainPhotoDiv { 
-    position:relative;  left:505px;
-}
-
