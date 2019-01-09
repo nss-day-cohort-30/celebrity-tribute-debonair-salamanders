@@ -98,9 +98,10 @@ nav {
     border: 5px black solid;
 }
 
-/* .nsyncSection {
+.nsyncLists {
+    display: flex;
     border: red 1px solid;
-} */
+}
 
 .albumImages,
 .movieImages {
