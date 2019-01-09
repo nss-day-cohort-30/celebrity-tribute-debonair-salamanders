@@ -83,7 +83,7 @@ body {
  }
 
 .mainFooter {
-   
+  
     padding: 20px 0px;
     display: flex;
     justify-content: space-evenly;
@@ -91,6 +91,14 @@ body {
     flex-shrink: 0;
 }
 
+.mainPageFooter {
+    margin-top: 20px;
+    border-top: 1px solid black;
+}
+
+.container{
+    border-bottom: 1px solid black;
+}
 
 
 .lowerText {
@@ -177,7 +185,7 @@ nav {
 .movieList {
     display: flex;
     flex-wrap: wrap;
-    height: 200px;
+    height: 200px;.mainFooterPage ƒ
 }
 
 .movieList li {
