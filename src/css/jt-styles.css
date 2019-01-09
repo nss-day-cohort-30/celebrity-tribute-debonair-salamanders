@@ -7,7 +7,6 @@ nav {
     width: 100%;
     display: flex;
     justify-content: center;
-    font-family: 'Anton', sans-serif;
 }
 
 h1,
@@ -15,7 +14,8 @@ h3, {
     font-family: 'Anton', sans-serif;
 }
 
-p {
+p,
+li {
     font-family: 'Thasadith', sans-serif; 
 }
 
@@ -56,7 +56,10 @@ p {
 .navBarList li {
     list-style: none;
     float: left;
+}
 
+.navBarList > li {
+    font-family: 'Anton', sans-serif;
 }
 
 .navBarList a {
