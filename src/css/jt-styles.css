@@ -2,7 +2,6 @@ body {
     padding: 0% 10%;
     background-color: antiquewhite;
 }
-   
 
 nav {
     width: 100%;
@@ -11,12 +10,16 @@ nav {
 }
 
 h1,
-h3, {
+h2,
+h3 {
     font-family: 'Anton', sans-serif;
 }
 
 p,
-li {
+li,
+h4,
+h5,
+h6 {
     font-family: 'Thasadith', sans-serif; 
 }
 
@@ -30,7 +33,7 @@ ul {
 }
 
 .jtMainContent__section{
-    margin: 30px 0px;
+    margin: 50px 0px;
 }
 
 .navIcons {
@@ -47,7 +50,7 @@ ul {
 }
 
 .logoIcon {
-    padding: 10px 15px 0px 10px; 
+    padding: 0px 50px 0px 10px; 
     width:64px;
     height:64px;
 }
@@ -85,14 +88,8 @@ body {
 .mainPageFooter{
     
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
-
-.jtMainContent__extrasLink{
-    line-height: 1.6;
-}
-
-
 
 nav {
     width: 100%;
@@ -121,11 +118,10 @@ nav {
     padding: 8px 16px;
     text-decoration: none;
     display: flex;
-    flex-direction: row-reverse; 
-    justify-content:center; 
+    /* flex-direction: row-reverse;  */
+    justify-content:space-evenly; 
     width: 118px;
-
-  }
+}
 
 .navBarList a:hover {
     background-color: #555;
@@ -188,15 +184,8 @@ nav {
 /* Personal page styling */
 
 .personal_img {
-    height: 400px;
-    width: 450px;
-}
-
-#baiLogo {
-    position:relative;  top:10px;
-}
-
-#mainPhotoDiv { 
-    position:relative;  left:505px;
+    height: 325px;
+    width: 400px;
+    border: 5px solid black;
 }
 
