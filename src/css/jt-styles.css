@@ -26,12 +26,65 @@ body {
 
 
 
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+
+
 
 .mouseClubSection {
     /* border: 1px red solid; */
     display: flex;
     justify-content: center;
 }
+
+
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.collaborators {
+    padding: 20px;
+}
+
+.navBarList li {
+    list-style: none;
+    float: left;
+
+}
+
+.navBarList a {
+    display: block; 
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content:center; 
+    width: 118px;
+
+  }
+
+/* .navBarList a {
+    display: block; 
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  } */
+
+  .navBarList a:hover {
+
+        background-color: #555;
+        color: white;
+  
+  }
 
 .mouseClubSection ul {
     display: flex;
@@ -78,3 +131,4 @@ body {
     list-style: none;
     width: 30%;
 }
+
